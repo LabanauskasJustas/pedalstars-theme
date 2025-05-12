@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/e79b93e4-f1b6-4f92-9d68-f5013bb37594.png",
+            "image": "shopify://shop_images/e79b93e4-f1b6-4f92-9d68-f5013bb37594_739ad09f-8ca0-4662-aa42-cf10004b0a6b.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -35,7 +35,7 @@
         "slideshow-0"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "natural",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
