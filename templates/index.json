@@ -16,40 +16,23 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Two line\ntitle slide.",
+            "title": "Style Your Ride",
             "title_size": 80,
-            "subheading": "And optional subtext",
+            "subheading": "",
             "link": "shopify://collections/all",
-            "link_text": "Shop this",
-            "link_2": "shopify://collections/all",
-            "link_text_2": "Shop all",
+            "link_text": "Discover more",
+            "link_2": "",
+            "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "slideshow-1": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
-            "title_size": 80,
-            "subheading": "And optional subtext",
-            "link": "shopify://collections/all",
-            "link_text": "Shop all",
-            "link_2": "shopify://collections/all",
-            "link_text_2": "Shop all",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/e79b93e4-f1b6-4f92-9d68-f5013bb37594.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slideshow-0",
-        "slideshow-1"
+        "slideshow-0"
       ],
       "settings": {
         "section_height": "750px",
