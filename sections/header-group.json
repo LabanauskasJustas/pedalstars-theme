@@ -48,7 +48,7 @@
           "type": "announcement",
           "settings": {
             "text": "Free shipping",
-            "link_text": "On all orders over $100",
+            "link_text": "For All Orders",
             "link": ""
           }
         },
@@ -65,7 +65,6 @@
         "announcement-0",
         "announcement-1"
       ],
-      "disabled": true,
       "settings": {
         "announcement_compact": true
       }
