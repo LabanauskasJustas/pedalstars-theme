@@ -30,10 +30,10 @@
         "main_menu_link_list": "main-menu",
         "hover_menu": true,
         "mega_menu_images": true,
-        "main_menu_alignment": "center-split",
+        "main_menu_alignment": "left",
         "header_style": "sticky",
-        "sticky_index": false,
-        "sticky_collection": false,
+        "sticky_index": true,
+        "sticky_collection": true,
         "toolbar_menu": "",
         "toolbar_social": true,
         "show_locale_selector": true,
@@ -65,6 +65,7 @@
         "announcement-0",
         "announcement-1"
       ],
+      "disabled": true,
       "settings": {
         "announcement_compact": true
       }
