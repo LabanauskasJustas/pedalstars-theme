@@ -54,6 +54,7 @@
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Hassle-free returns",
             "link_text": "30-day postage paid returns",
