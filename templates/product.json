@@ -135,7 +135,7 @@
     "176988241695ce5d61": {
       "type": "apps",
       "blocks": {
-        "loox_reviews_loox_dynamic_section_wFDrWq": {
+        "loox_reviews_loox_dynamic_section_iTkiyj": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
@@ -148,7 +148,7 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_dynamic_section_wFDrWq"
+        "loox_reviews_loox_dynamic_section_iTkiyj"
       ],
       "settings": {
         "full_width": false,
