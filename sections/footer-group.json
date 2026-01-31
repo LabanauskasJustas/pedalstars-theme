@@ -11,6 +11,36 @@
   "type": "footer",
   "name": "t:sections.footer-group.name",
   "sections": {
+    "advanced_content_YJmQNE": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_JfkbCw": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"ps-benefits\">\n  <div class=\"ps-benefit\">\n    <span class=\"ps-icon\">↩︎</span>\n    <h4>Free returns</h4>\n    <p>Orders can be returned within 14 days for a full refund.</p>\n  </div>\n\n  <div class=\"ps-benefit\">\n    <span class=\"ps-icon\">＋</span>\n    <h4>Free repairs</h4>\n    <p>Crashes happen. We’ll repair your garment for free.</p>\n  </div>\n\n  <div class=\"ps-benefit\">\n    <span class=\"ps-icon\">◎</span>\n    <h4>Classics guarantee</h4>\n    <p>30-day guarantee on classics products.</p>\n  </div>\n</div>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_JfkbCw"
+      ],
+      "custom_css": [
+        ".ps-benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;padding:3rem 0;border-top:1px solid #e6e8eb;border-bottom:1px solid #e6e8eb}",
+        ".ps-benefits>*{display:flex;flex-direction:column;gap:.5rem}",
+        ".ps-benefits h3,.ps-benefits h4{text-transform:uppercase;font-size:.8rem;letter-spacing:.12em;margin:0}",
+        ".ps-benefits p{margin:0;font-size:.85rem;color:#4a4f55}",
+        "@media(max-width:900px){.ps-benefits{grid-template-columns:repeat(2,1fr)}}",
+        "@media(max-width:600px){.ps-benefits{grid-template-columns:1fr}}"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "footer-promotions": {
       "type": "footer-promotions",
       "blocks": {
@@ -103,6 +133,7 @@
     }
   },
   "order": [
+    "advanced_content_YJmQNE",
     "footer-promotions",
     "footer"
   ]
