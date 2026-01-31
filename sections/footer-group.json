@@ -27,10 +27,11 @@
         "liquid_JfkbCw"
       ],
       "custom_css": [
-        ".ps-benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;justify-items:center}",
-        ".ps-benefits>*{display:flex;flex-direction:column;align-items:center;text-align:center}",
-        "@media(max-width:900px){.ps-benefits{grid-template-columns:repeat(2,1fr)}}",
-        "@media(max-width:600px){.ps-benefits{grid-template-columns:1fr}}"
+        ".ps-benefits{align-items:center}",
+        ".ps-benefits {display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; justify-items: center;}",
+        ".ps-benefits > * {display: flex; flex-direction: column; align-items: center; text-align: center;}",
+        "@media (max-width: 900px) {.ps-benefits {grid-template-columns: repeat(2, 1fr); }}",
+        "@media (max-width: 600px) {.ps-benefits {grid-template-columns: 1fr; }}"
       ],
       "name": "t:sections.advanced-content.presets.custom_content.name",
       "settings": {
