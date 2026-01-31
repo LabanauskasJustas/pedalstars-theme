@@ -17,22 +17,16 @@
         "liquid_JfkbCw": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"ps-benefits\">\n  <div class=\"ps-benefit\">\n    <span class=\"ps-icon\">↩︎</span>\n    <h4>Free returns</h4>\n    <p>Orders can be returned within 14 days for a full refund.</p>\n  </div>\n\n  <div class=\"ps-benefit\">\n    <span class=\"ps-icon\">＋</span>\n    <h4>Free repairs</h4>\n    <p>Crashes happen. We’ll repair your garment for free.</p>\n  </div>\n\n  <div class=\"ps-benefit\">\n    <span class=\"ps-icon\">◎</span>\n    <h4>Classics guarantee</h4>\n    <p>30-day guarantee on classics products.</p>\n  </div>\n</div>",
+            "code": "<style>\n#psb{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;justify-items:center;align-items:center}\n#psb>div{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.5rem}\n#psb .ps-icon{font-size:28px;line-height:1}\n#psb h4{margin:0;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem}\n#psb p{margin:0;font-size:.85rem;color:#4a4f55}\n@media(max-width:900px){#psb{grid-template-columns:1fr}}\n</style>\n\n<div id=\"psb\">\n  <div><span class=\"ps-icon\">↩︎</span><h4>Free returns</h4><p>Orders can be returned within 14 days for a full refund.</p></div>\n  <div><span class=\"ps-icon\">＋</span><h4>Free repairs</h4><p>Crashes happen. We’ll repair your garment for free.</p></div>\n  <div><span class=\"ps-icon\">◎</span><h4>Classics guarantee</h4><p>30-day guarantee on classics products.</p></div>\n</div>",
             "width": "100%",
-            "alignment": "top-middle"
+            "alignment": "center"
           }
         }
       },
       "block_order": [
         "liquid_JfkbCw"
       ],
-      "custom_css": [
-        ".ps-benefits{align-items:center}",
-        ".ps-benefits {display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; justify-items: center;}",
-        ".ps-benefits > * {display: flex; flex-direction: column; align-items: center; text-align: center;}",
-        "@media (max-width: 900px) {.ps-benefits {grid-template-columns: repeat(2, 1fr); }}",
-        "@media (max-width: 600px) {.ps-benefits {grid-template-columns: 1fr; }}"
-      ],
+      "custom_css": [],
       "name": "t:sections.advanced-content.presets.custom_content.name",
       "settings": {
         "full_width": false,
