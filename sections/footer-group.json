@@ -27,10 +27,8 @@
         "liquid_JfkbCw"
       ],
       "custom_css": [
-        ".ps-benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;padding:3rem 0;border-top:1px solid #e6e8eb;border-bottom:1px solid #e6e8eb}",
-        ".ps-benefits>*{display:flex;flex-direction:column;gap:.5rem}",
-        ".ps-benefits h3,.ps-benefits h4{text-transform:uppercase;font-size:.8rem;letter-spacing:.12em;margin:0}",
-        ".ps-benefits p{margin:0;font-size:.85rem;color:#4a4f55}",
+        ".ps-benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;justify-items:center}",
+        ".ps-benefits>*{display:flex;flex-direction:column;align-items:center;text-align:center}",
         "@media(max-width:900px){.ps-benefits{grid-template-columns:repeat(2,1fr)}}",
         "@media(max-width:600px){.ps-benefits{grid-template-columns:1fr}}"
       ],
