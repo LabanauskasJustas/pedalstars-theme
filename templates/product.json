@@ -110,6 +110,19 @@
         "max_width": true
       }
     },
+    "featured_collection_8dthLB": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "You May Also Like",
+        "home_featured_products": "eyewear",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": true
+      }
+    },
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
@@ -232,6 +245,7 @@
   "order": [
     "main",
     "sub",
+    "featured_collection_8dthLB",
     "background-image-text",
     "text-and-image",
     "text-and-image2",
