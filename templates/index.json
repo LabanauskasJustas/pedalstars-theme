@@ -200,8 +200,8 @@
         "advanced_KPfxwR": {
           "type": "advanced",
           "settings": {
-            "subheading": "Daily Commute",
-            "heading": "",
+            "subheading": "",
+            "heading": "Daily Commute",
             "textarea": "Built for the rides that fit between everything else.",
             "cta_text1": "",
             "cta_link1": "",
