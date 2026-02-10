@@ -75,31 +75,21 @@
         "enable_gutter": true
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Built for the long road"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+    "background-image-text": {
+      "type": "background-image-text",
+      "disabled": true,
       "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "divider": true
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+        "button_label": "",
+        "button_link": "shopify://collections/all",
+        "layout": "left",
+        "height": 750,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
       }
     },
     "text_and_image_mLi6Rb": {
@@ -128,8 +118,17 @@
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
+        "image_pTbgay": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Google_Gemini_Generated_Image_4.png",
+            "link": "",
+            "width": "100"
+          }
+        },
         "promo-0": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -150,6 +149,7 @@
         },
         "promo-1": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -170,10 +170,10 @@
         }
       },
       "block_order": [
+        "image_pTbgay",
         "promo-0",
         "promo-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "gutter_size": 20,
@@ -184,22 +184,43 @@
     },
     "featured-collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
+        "title": "",
+        "home_featured_products": "luggage",
+        "per_row": 1,
+        "rows": 3,
         "mobile_scrollable": true,
-        "view_all": true,
+        "view_all": false,
         "divider": false
       }
     },
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
+        "advanced_KPfxwR": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Daily Commute",
+            "heading": "",
+            "textarea": "Built for the rides that fit between everything else.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/Google_Gemini_2.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
         "promo2-0": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -220,6 +241,7 @@
         },
         "promo2-1": {
           "type": "sale_collection",
+          "disabled": true,
           "settings": {
             "sale_collection": "",
             "top_text": "Up to",
@@ -234,6 +256,7 @@
         },
         "promo2-2": {
           "type": "sale_collection",
+          "disabled": true,
           "settings": {
             "sale_collection": "",
             "top_text": "Up to",
@@ -248,33 +271,16 @@
         }
       },
       "block_order": [
+        "advanced_KPfxwR",
         "promo2-0",
         "promo2-1",
         "promo2-2"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
         "space_above": false,
         "space_below": false,
-        "lazyload_images": true
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image with text box",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
-        "button_label": "",
-        "button_link": "shopify://collections/all",
-        "layout": "left",
-        "height": 750,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
         "lazyload_images": true
       }
     },
@@ -310,12 +316,11 @@
   "order": [
     "slideshow",
     "featured-collections",
-    "rich-text",
+    "background-image-text",
     "text_and_image_mLi6Rb",
     "promo-grid",
     "featured-collection",
     "promo-grid2",
-    "background-image-text",
     "blog-posts",
     "map"
   ]
