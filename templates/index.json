@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/e79b93e4-f1b6-4f92-9d68-f5013bb37594_38d8ad78-78db-4f74-9337-96b4ac900a3c.png",
+            "image": "shopify://shop_images/Gemini_Generated_Image_13.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -44,20 +44,51 @@
         "lazyload_images": true
       }
     },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "luggage",
+            "title": "Storage",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "eyewear",
+            "title": "Eye Protection",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-2",
+        "featured-collections-3"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "divider": false,
+        "per_row": 5,
+        "enable_gutter": true
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Rich text"
+            "title": "Built for the long road"
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": ""
           }
         }
       },
@@ -66,9 +97,32 @@
         "text"
       ],
       "settings": {
-        "align_text": "center",
+        "align_text": "left",
         "narrow_column": true,
-        "divider": false
+        "divider": true
+      }
+    },
+    "text_and_image_mLi6Rb": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_14.png",
+        "image_mask": "portrait",
+        "image2": "shopify://shop_images/Google_Gemini_1.jpg",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "Built for the long road",
+        "text": "<p>Not every ride is about speed.<br/>Some are about distance.<br/>Some are about disappearing for a while.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "promo-grid": {
@@ -128,53 +182,17 @@
         "lazyload_images": true
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3"
-      ],
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "Shop by category",
-        "divider": false,
+        "title": "Featured collection",
+        "home_featured_products": "",
         "per_row": 4,
-        "enable_gutter": true
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "promo-grid2": {
@@ -243,19 +261,6 @@
         "lazyload_images": true
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "background-image-text": {
       "type": "background-image-text",
       "disabled": true,
@@ -304,11 +309,12 @@
   },
   "order": [
     "slideshow",
-    "rich-text",
-    "promo-grid",
     "featured-collections",
-    "promo-grid2",
+    "rich-text",
+    "text_and_image_mLi6Rb",
+    "promo-grid",
     "featured-collection",
+    "promo-grid2",
     "background-image-text",
     "blog-posts",
     "map"
