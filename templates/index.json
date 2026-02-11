@@ -286,16 +286,15 @@
     },
     "blog-posts": {
       "type": "blog-posts",
-      "disabled": true,
       "settings": {
-        "title": "From the journal",
+        "title": "Catch The Wind",
         "blog": "news",
         "post_limit": 3,
         "blog_show_tags": false,
         "blog_show_date": true,
         "blog_show_comments": false,
         "blog_show_author": false,
-        "view_all": true,
+        "view_all": false,
         "blog_image_size": "wide",
         "divider": false
       }
