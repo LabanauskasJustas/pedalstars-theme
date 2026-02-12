@@ -20,6 +20,24 @@
         "social_sharing_blog": true
       }
     },
+    "background_image_text_Ch8qcB": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "Preparation reduces friction",
+        "text": "<p>Distance exposes weakness. Systems prevent it</p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/Gemini_Generated_Image_15.png",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
     "text_and_image_iziMXY": {
       "type": "text-and-image",
       "disabled": true,
@@ -58,28 +76,11 @@
         "divider": false
       }
     },
-    "background_image_text_Ch8qcB": {
-      "type": "background-image-text",
-      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image with text box",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
-        "button_label": "",
-        "button_link": "",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
-      }
-    },
     "featured_collection_QTY6bQ": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
-        "title": "Protect the way you see the road",
+        "title": "Prepared for What’s Ahead",
         "home_featured_products": "luggage",
         "per_row": 1,
         "rows": 2,
@@ -91,9 +92,9 @@
   },
   "order": [
     "main",
+    "background_image_text_Ch8qcB",
     "text_and_image_iziMXY",
     "blog-posts",
-    "background_image_text_Ch8qcB",
     "featured_collection_QTY6bQ"
   ]
 }
