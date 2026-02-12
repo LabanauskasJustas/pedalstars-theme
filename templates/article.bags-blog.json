@@ -80,7 +80,7 @@
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
         "title": "Protect the way you see the road",
-        "home_featured_products": "eyewear",
+        "home_featured_products": "luggage",
         "per_row": 1,
         "rows": 2,
         "mobile_scrollable": true,
