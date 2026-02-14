@@ -97,9 +97,9 @@
           "type": "newsletter",
           "settings": {
             "show_footer_title": true,
-            "title": "Sign up and save",
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
-            "container_width": 33
+            "title": "Join the Ride",
+            "text": "<p>Product drops. Rider thoughts.<br/>Only what matters.</p>",
+            "container_width": 40
           }
         },
         "footer-0": {
