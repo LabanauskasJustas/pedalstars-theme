@@ -23,10 +23,54 @@
         "show_phone": false,
         "narrow_column": true
       }
+    },
+    "faq_an7dYh": {
+      "type": "faq",
+      "blocks": {
+        "question_7GFEnE": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return or exchange an item?",
+            "text": "<p>Yes. If your gear isn’t right, you can request a return within the specified return window (unused and in original condition).</p><p>We believe buying online shouldn’t feel risky — clarity and fairness matter.</p>"
+          }
+        },
+        "question_kNxM4R": {
+          "type": "question",
+          "settings": {
+            "title": "Are Pedalstars bags waterproof?",
+            "text": "<p>Our bags and pouches are designed to withstand real riding conditions: rain, spray, dust, and heat. Materials are water-resistant and performance-tested for long days on the road.</p><p>They’re made to protect your ride essentials — tools, layers, nutrition — without bulk or movement.</p>"
+          }
+        },
+        "question_BRaWcA": {
+          "type": "question",
+          "settings": {
+            "title": "How do I choose the right eyewear for my riding style?",
+            "text": "<p>Our performance eyewear is built for long hours in motion — road, gravel, or mixed terrain. If you ride fast, exposed routes, choose high-coverage shield lenses for wind protection. If you prioritize versatility and all-day comfort, go for balanced frames with stable nose grip and ventilation.</p><p>When in doubt, tell us how and where you ride — we’ll guide you.</p>"
+          }
+        },
+        "question_Wthtb6": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "text": "<p>Orders are processed quickly and dispatched with tracking. Delivery times vary by location, but most riders receive their gear within standard international shipping windows.</p><p>You’ll always receive tracking details once your order leaves us.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_7GFEnE",
+        "question_kNxM4R",
+        "question_BRaWcA",
+        "question_Wthtb6"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
     "main",
-    "contact_form_FJnbyQ"
+    "contact_form_FJnbyQ",
+    "faq_an7dYh"
   ]
 }
