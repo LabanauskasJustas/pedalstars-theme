@@ -105,6 +105,17 @@
     },
     "sub": {
       "type": "product-full-width",
+      "blocks": {
+        "description_JDg6gH": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "description_JDg6gH"
+      ],
       "disabled": true,
       "settings": {
         "max_width": true
@@ -116,20 +127,6 @@
         "product_recommendations_heading": "You may also like",
         "related_count": 6,
         "products_per_row": 3
-      }
-    },
-    "featured_collection_8dthLB": {
-      "type": "featured-collection",
-      "disabled": true,
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
-      "settings": {
-        "title": "You May Also Like",
-        "home_featured_products": "eyewear",
-        "per_row": 3,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": true
       }
     },
     "176988241695ce5d61": {
@@ -157,6 +154,7 @@
     },
     "background-image-text": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Impressive",
         "title": "About your brand",
@@ -173,6 +171,7 @@
     },
     "text-and-image": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_mask": "none",
         "image2_mask": "none",
@@ -193,6 +192,7 @@
     },
     "text-and-image2": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_mask": "none",
         "image2_mask": "none",
@@ -247,6 +247,7 @@
         "testimonials-1",
         "testimonials-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "align_text": "center",
@@ -263,6 +264,7 @@
     },
     "collection-return": {
       "type": "collection-return",
+      "disabled": true,
       "settings": {}
     },
     "17698825486df5da27": {
@@ -293,7 +295,6 @@
     "main",
     "sub",
     "product-recommendations",
-    "featured_collection_8dthLB",
     "176988241695ce5d61",
     "background-image-text",
     "text-and-image",
